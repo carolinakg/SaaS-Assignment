@@ -1,0 +1,651 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+html, body {
+    height:100%;
+}
+
+.everthing{
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid red;
+    border: 2px solid black; */
+    display: flex;
+}
+
+.divPinkOne, .divPinkTwo{
+    /* border: 10px solid pink;
+    border: 2px solid black; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 5px; */
+
+}
+
+.divPinkTwo, .divYellowTwo{
+    background-color: #F5F6F8;
+    margin:0;
+    padding: 0;
+}
+
+.divPurpleOne, .divPurpleTwo{
+    /* border: 5px solid purple;
+    border: 2px solid black; */
+    display: flex;
+    height: 100%;
+    padding: 5px;
+    
+}
+.divPurpleTwo {
+    background-color: #F5F6F8;
+    padding: 15px;
+    margin: 40px;
+}
+
+.divYellowOne, .divYellowTwo{
+    /* border: 5px solid yellow;
+    border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+}
+.divYellowOne{
+    margin:0;
+}
+
+
+.divYellowzinho{
+    margin:10px;
+}
+
+.divOrangeOne, .divOrangeTwo{
+    /* border: 5px solid orange;
+    border: 2px solid black; */
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin: 5px;
+}
+
+
+.navBar{
+    flex-basis: 17.8%;
+    display: flex;
+    justify-content:start
+}
+.sidebarbottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    border-top: 2px solid #EBEFF2;
+    padding-right: 17px;
+    padding-top: 10px;
+    align-items: flex-start;
+    padding-left: 25px;
+
+}
+
+.searchBar{
+  flex-basis: 7%;  
+  display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  color: #90A0B7;
+  align-items: center;
+  box-shadow: 4px 4px 40px 0px rgb(235, 230, 230);
+}
+
+h1{
+color: #109CF1;
+}
+
+.avatar1{
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #EBEFF2;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+.graphs{
+    flex-basis: 80%;
+    margin:0;
+    padding:0;
+
+}
+
+.taskBar{
+    display: flex;
+    flex-basis: 90%;
+    background-color: rgb(255, 255, 255);
+}
+
+.titleSideBar{
+    font-family:'Open Sans', sans-serif;
+    font-size: 10px;
+    padding: 6.5px;
+    padding-left: 11px;
+   
+}
+
+h2{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 12px;
+    font-weight: 400;
+    color: #90A0B7;    ;
+}
+
+ul{
+    font-weight: 500;
+    font-size: 13px;
+    color: #334D6E;
+    flex-basis: 85.88%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+li{
+    padding-top: 12px;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.listNavBar{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: flex-start;
+    margin-left: 23px;
+    
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 2px;
+}
+
+progress {
+    -webkit-appearance: none;
+  }
+  
+  ::-webkit-progress-bar {
+    background-color: #EBEFF2
+    ;
+  }
+
+  ::-webkit-progress-value {
+    background-color: #2ED47A
+    ;
+  }
+
+.iconelement{
+    margin-bottom: 4.5px;
+}
+
+.taskcomplete{
+    font-weight: 500;
+    font-size: 13px;
+    color: #334D6E;
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+
+.dayWeek{
+    /* display: inline-block;
+    text-align: center; */
+    width: 100%;
+    margin:0;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EBEFF2;
+}
+.weekday{
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.liiconname{
+    display: flex;
+    justify-content: left;
+    font-size:13px ;
+    color:#334D6E ;
+    /* border: 2px solid black; */
+}
+
+.svg{
+    padding-right: 20px;
+}
+
+.dealsgraph, .taskgraph{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin:0;
+
+}
+
+.dealsgraph{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    height: 80%;
+    width: 80%;
+}
+
+.taskgraph{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+}
+
+.globalsearch{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    align-items: center;
+}
+
+
+.taskslist{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+    margin: 20px;
+
+}
+
+.card{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:10px;
+    box-shadow: 4px 4px 40px 0px rgb(235, 230, 230);
+}
+
+.titletask{
+    display:flex;
+    /* border: 2px solid black; */
+}
+
+.datetask{
+    display:flex;
+    /* border: 2px solid black; */
+}
+
+.div1, .divdois, .important, .reminder{
+    display:flex;
+    justify-content: space-between;
+}
+.important{
+    flex-direction: column;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 15px;
+    color: #323C47
+    ;
+}
+
+.dates{
+    font-weight: 400;
+    font-size: 13px;
+    color:#4C5862;
+}
+
+.reminder{
+    font-weight: 500;
+    font-size: 12px;
+    COLOR:#90A0B7;
+}
+
+.responsable{
+    font-weight: 400;
+    font-size: 13px;
+    color:#707683;
+    display: flex;
+    align-items: center;
+}
+
+.status{
+    color:#fff;
+    background-color: #2ED47A;
+    height: 22px;
+    border-radius: 4px;
+    width: 84px;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.ended{
+    background-color: #F7685B;
+}
+
+img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.number23{
+    background-color:#109CF1;
+    border-radius: 50%;
+    /* padding-right:2px;
+    padding-left:2px; */
+    padding:2px;
+    padding: 0 4px;
+    color: white;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+}
+
+.graphlegend{
+    display: flex;
+    border-bottom: 2px solid #EBEFF2;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.calendar{
+    display: flex;
+    flex-direction: column;
+}
+
+
+progress{
+    width: 100%;
+    height: 0.5rem;
+}
+
+
+
+.graphseparation{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-content: center;
+    
+    
+}
+.graphseparation span span{
+color: #0d9cf1;
+
+}
+
+.barra span span{
+    color: #0d9cf1;
+}
+
+.teste{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+.showmonthly{
+    font-weight: 400;
+    font-size: 12px;
+    color: #6A707E;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    width: 111px;
+    align-items: center;
+}
+
+.titlegraph{
+    font-weight: 500;
+    font-size: 15px;
+    color: #192A3E
+}
+.thismonth{
+    width: 170px;
+}
+.toggle{
+    font-size: 11px;
+    font-weight: 500;
+    color: #90A0B7;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.textone{
+    font-weight: 500;
+    font-size:13px ;
+    color:#334D6E;
+    margin: 5px;
+
+}
+
+.weekday:hover{
+    color:#109CF1
+}
+
+.newthing{
+    display: flex;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.graphnumbers{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.legendtaskgraph{
+    margin-left: 50px;
+    display: flex;
+    margin-top: 59px;
+}
+
+.showmore{
+    color:#109CF1;
+    font-size: 13px;
+    font-weight: 600;
+    justify-content: center;
+    /* margin-top: 10px; */
+    text-align: center;
+    background-color: transparent;
+
+}
+
+input{
+    flex-grow: 1;
+    border: none;
+}
+
+@media(max-width: 1600px){
+    .sizegraph{
+        width: 450px;
+    }
+}
+
+
+@media(max-width: 1553px){
+
+    .sizegraph{
+           width: 350px;
+       }
+   }
+   
+   @media(max-width: 13630px){
+   .sizegraph{
+       width: 300px ;
+   }
+   }
+
+
+
+@media (max-width: 1200px){
+    .sizegraph{
+        width: 250px !important;
+    }
+    .sizegraph2{
+        width: 150px !important;
+    }
+}
+
+@media (max-width: 1063px){
+    .sizegraph{
+        width: 200px !important;
+    }
+    .sizegraph2{
+        width: 100px !important;
+    }
+}
+
+
+
+
+
+@media(max-width: 900px){
+    .teste, .navBar, .showmore, .titlegraph{
+        display: none;
+    }
+
+    .divPurpleTwo, .divPinkTwo{
+        flex-direction: column;
+    }
+    .divPurpleTwo{
+        /* width: 50%; */
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color:#fff ;
+        margin-top: 10px;
+    }
+
+    .divYellowTwo{
+        margin-top: 20px;
+        width: 100%;
+        background-color:#fff ;
+    }
+    .tasklist{
+        margin:0;
+    }
+    .divPinkTwo{
+        background-color:#fff;
+    }
+
+    .divYellowOne{
+        background-color:#fff ;
+    }
+    .sizegraph{
+        width: 397px;
+        margin: auto;
+    }
+    .sizegraph2{
+        width: 232px;
+    }
+   
+}
+
+
+.card:hover, .arrow:hover, .arrow2:hover, .showmore:hover, .weekday:hover, .toggle:hover, .notification:hover{
+    cursor: pointer;
+}
+
+.liiconname:hover, .toggle:hover path, .toggle:hover{
+    cursor: pointer;
+    color:#109CF1;
+    fill: #109CF1;
+    stroke: #109CF1;
+}
+
+.liiconname:hover svg, .liiconname:hover path{
+    stroke: #109CF1;
+    fill: #109CF1;
+}
+
+/* .edit{
+    display: flex;
+    
+} */
+
+.rightside{
+    display: flex;
+}
+
+.edit{
+    display: none;
+   
+
+}
+
+.card:hover .edit{
+display: flex;
+margin: 5px;
+}
+
+.data{
+    color: #192A3E;
+    font-size: 15px;
+    font-weight: 500;
+    margin:20px;
+}
+
+.legendseparation{
+    display: flex;
+    justify-content:flex-start ;
+
+}
+
+.roundcolor{
+    margin-right: 5px;
+}
+
+.arrow{
+    text-align: center;
+   padding-bottom: 5px;
+   margin-left: 5px;
+}
+
+.arrow2{
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+.sizegraph{
+    margin:auto;
+}
